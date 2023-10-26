@@ -1,5 +1,5 @@
 ---
-name: libs/experimental CI
+name: templates CI
 
 on:
   push:
