@@ -13,10 +13,18 @@ python = "^3.10"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+# dev, test, lint, typing
+
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.24.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
 
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.1"
 
+[tool.poetry.group.typing.dependencies]
 
 [tool.ruff]
 select = [
